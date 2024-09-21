@@ -11,7 +11,7 @@ export default function layout(props: Props) {
     <div className="flex">
       <Sidebar />
       <FloatingBar />
-      <main className="flex-1 pt-10 p-6 bg-muted">{props.children}</main>
+      <main className="flex-1 bg-muted p-6 pt-10">{props.children}</main>
     </div>
   )
 }

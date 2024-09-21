@@ -13,27 +13,27 @@ export default function NavigationMenu({ collapsed }: { collapsed: boolean }) {
     {
       title: 'Dashboard',
       href: '/admin',
-      icon: <LayoutGridIcon className="h-5 w-5" />
+      icon: <LayoutGridIcon className="inline h-6 w-6" />
     },
     {
       title: 'Bookings',
       href: '/booking',
-      icon: <Calendar className="h-5 w-5" />
+      icon: <Calendar className="inline h-6 w-6" />
     },
     {
       title: 'Cars',
       href: '/car',
-      icon: <Car className="h-5 w-5" />
+      icon: <Car className="inline h-6 w-6" />
     },
     {
       title: 'Customers',
       href: '/customer',
-      icon: <UsersIcon className="h-5 w-5" />
+      icon: <UsersIcon className="inline h-6 w-6" />
     },
     {
       title: 'Settings',
       href: '/setting',
-      icon: <SettingsIcon className="h-5 w-5" />
+      icon: <SettingsIcon className="inline h-6 w-6" />
     }
   ]
 
